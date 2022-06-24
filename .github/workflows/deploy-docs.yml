@@ -37,9 +37,9 @@ jobs:
       - name: 部署文档
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.fsyblog_public }}
+          deploy_key: ${{ secrets.fsyblog }}
           external_repository: fsy-1209/fsy-1209.github.io
           # 这是文档部署到的分支名称
-          publish_branch: master
+          publish_branch: gh-pages
           publish_dir: docs/.vuepress/dist
 
