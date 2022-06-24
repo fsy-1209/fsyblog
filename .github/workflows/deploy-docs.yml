@@ -40,6 +40,6 @@ jobs:
           deploy_key: ${{ secrets.fsyblog }}
           external_repository: fsy-1209/fsy-1209.github.io
           # 这是文档部署到的分支名称
-          publish_branch: gh-pages
+          publish_branch: main
           publish_dir: docs/.vuepress/dist
 
