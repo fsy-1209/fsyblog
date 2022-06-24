@@ -1,12 +1,12 @@
 ---
 home: true
 icon: home
-title: 项目主页
+title: 文章主页
 heroImage: /logo.svg
-heroText: 项目名称
-tagline: 你可以在这里放置或是整个项目的描述。
+heroText: FSYBlog
+tagline: 技术实现梦想，技能改变人生。
 actions:
-  - text: 使用指南 💡
+  - text: 基础技术教程 💡
     link: /guide/
     type: primary
 
