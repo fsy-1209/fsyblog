@@ -35,11 +35,11 @@ jobs:
         run: npm run docs:build
 
       - name: 部署文档
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          deploy_key: ${{ secrets.fsyblog_public }}
           external_repository: fsy-1209/fsy-1209.github.io
           # 这是文档部署到的分支名称
-          BRANCH: main
-          FOLDER: docs/.vuepress/dist
+          publish_branch: master
+          publish_dir: docs/.vuepress/dist
 
