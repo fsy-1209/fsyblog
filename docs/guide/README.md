@@ -19,3 +19,4 @@ category:
 4. [Linux用户权限](encrypt.md)
 
 ### 二、Linux进阶教程
+1. [基础教程]()
