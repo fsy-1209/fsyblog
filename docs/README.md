@@ -3,10 +3,11 @@ home: true
 layout: Blog
 icon: home
 title: 博客主页
-heroImage: /logo.svg
 heroText: FSYBlog
+heroImage: https://blog-imges-1312078630.cos.ap-nanjing.myqcloud.com/imges/202206251530069.jpg
 heroFullScreen: true
 tagline: 技术实现梦想，技能改变人生。
+bgImage: https://blog-imges-1312078630.cos.ap-nanjing.myqcloud.com/imges/202206251504950.jpg
 projects:
   - icon: project
     name: 项目名称
@@ -37,12 +38,8 @@ projects:
     name: 自定义项目
     desc: 自定义详细介绍
     link: https://你的自定义链接
-
-footer: 自定义你的页脚文字
+copyright: false
+footer: MIT Licensed | Copyright © 2022-present Mr.Fan
 ---
 
-这是一个博客主页的案例。
 
-要使用此布局，你应该在页面前端设置 `layout: Blog` 和 `home: true`。
-
-相关配置文档请见 [博客主页](https://vuepress-theme-hope.github.io/v2/zh/guide/blog/home/)。

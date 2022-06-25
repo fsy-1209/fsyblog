@@ -1,17 +1,21 @@
 ---
-title: 主要功能与配置演示
+title: Linux运维教程
 index: false
 icon: creative
 category:
-  - 使用指南
+  - Linux教程指南
 ---
 
 ## 目录
 
-- [Markdown 展示](markdown.md)
+### 一、Linux基础教程
 
-- [页面展示](page.md)
+1. [认识Linux](knowlinux.md)
 
-- [禁用展示](disable.md)
+2. [Linux文件](page.md)
 
-- [加密展示](encrypt.md)
+3. [Linux网络](disable.md)
+
+4. [Linux用户权限](encrypt.md)
+
+### 二、[Linux进阶教程](advancedlinux.md)

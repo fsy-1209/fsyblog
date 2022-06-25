@@ -3,20 +3,20 @@ import navbar from "./navbar";
 import sidebar from "./sidebar";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-v2-demo.mrhope.site",
+  hostname: "https://fsyblog.cn",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mrhope.site",
+    name: "Mr.Fan",
+    url: "https://fsyblog.cn",
   },
 
   iconAssets: "iconfont",
 
-  logo: "/logo.svg",
+  logo: "https://blog-imges-1312078630.cos.ap-nanjing.myqcloud.com/imges/202206251530069.jpg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "fsy-1209/fsyblog",
 
-  docsDir: "demo/src",
+  docsDir: "/docs",
 
   // navbar
   navbar: navbar,
@@ -24,25 +24,18 @@ export default hopeTheme({
   // sidebar
   sidebar: sidebar,
 
-  footer: "默认页脚",
+  footer: "MIT Licensed | Copyright © 2022-present Mr.Fan",
 
   displayFooter: true,
 
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
   blog: {
-    description: "一个前端开发者",
+    description: "一名运维工程狮",
     intro: "/intro.html",
     medias: {
-      Baidu: "https://example.com",
-      Bitbucket: "https://example.com",
-      Dingding: "https://example.com",
-      Discord: "https://example.com",
-      Dribbble: "https://example.com",
       Email: "https://example.com",
       Evernote: "https://example.com",
-      Facebook: "https://example.com",
-      Flipboard: "https://example.com",
       Gitee: "https://example.com",
       GitHub: "https://example.com",
       Gitlab: "https://example.com",
@@ -57,11 +50,9 @@ export default hopeTheme({
       Reddit: "https://example.com",
       Rss: "https://example.com",
       Steam: "https://example.com",
-      Twitter: "https://example.com",
       Wechat: "https://example.com",
       Weibo: "https://example.com",
       Whatsapp: "https://example.com",
-      Youtube: "https://example.com",
       Zhihu: "https://example.com",
     },
   },

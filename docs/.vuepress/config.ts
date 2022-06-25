@@ -3,8 +3,8 @@ import theme from "./theme";
 
 export default defineUserConfig({
   lang: "zh-CN",
-  title: "主题演示",
-  description: "vuepress-theme-hope 的演示",
+  title: "运维工程狮笔记",
+  description: "用技术实现自己的梦想。",
 
   base: "/",
 

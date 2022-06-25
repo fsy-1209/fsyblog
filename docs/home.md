@@ -2,11 +2,11 @@
 home: true
 icon: home
 title: 文章主页
-heroImage: /logo.svg
-heroText: FSYBlog
+heroImage: https://blog-imges-1312078630.cos.ap-nanjing.myqcloud.com/imges/202206251622219.jpg
+heroText: 运维工程狮笔记
 tagline: 技术实现梦想，技能改变人生。
 actions:
-  - text: 基础技术教程 💡
+  - text: 开始学习 💡
     link: /guide/
     type: primary
 
@@ -14,53 +14,53 @@ actions:
     link: /
 
 features:
-  - title: Markdown 增强
-    icon: markdown
-    details: 新增文字对齐、上下角标、脚注、标记、任务列表、数学公式、流程图、图表与幻灯片支持
+  - title: Linux运维
+    icon: linux
+    details: 详细的讲解linux的基础命令、linux常见的基础服务和使用shell脚本来批量运行。可以作为一个命令的参考文档。
     link: https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/
 
-  - title: 幻灯片页面
-    icon: slides
+  - title: 网络运维
+    icon: network
     details: 添加幻灯片页面以显示你喜欢的内容
     link: https://vuepress-theme-hope.github.io/v2/zh/guide/layout/slides
 
-  - title: 布局增强
+  - title: 集群运维
     icon: layout
     details: 添加路径导航、页脚、改进的导航栏、改进的页面导航等。
     link: https://vuepress-theme-hope.github.io/v2/zh/guide/layout/
 
-  - title: 浏览量与评论
+  - title: 虚拟化技术
     icon: comment
     details: 配合 Waline 来开启阅读量统计与评论支持
     link: https://vuepress-theme-hope.github.io/v2/zh/guide/feature/comment.html
 
-  - title: 文章信息
-    icon: info
+  - title: Docker容器技术
+    icon: docker
     details: 为你的文章添加作者、写作日期、预计阅读时间、字数统计等信息
     link: https://vuepress-theme-hope.github.io/v2/zh/guide/feature/page-info.html
 
-  - title: 博客支持
-    icon: blog
+  - title: 数据存储技术
+    icon: storage
     details: 使用一些很棒的布局提供博客功能，通过文章的日期、标签和分类，自动生成文章、分类、标签与时间轴列表
     link: https://vuepress-theme-hope.github.io/v2/zh/guide/blog/intro.html
 
-  - title: 主题色切换
-    icon: palette
+  - title: OpenStack运维
+    icon: stack
     details: 支持自定义主题色并允许用户在预设的主题颜色之间切换
     link: https://vuepress-theme-hope.github.io/v2/zh/guide/interface/theme-color.html
 
-  - title: 深色模式
+  - title: Kubernetes运维
     icon: contrast
     details: 可以自由切换浅色模式与深色模式
     link: https://vuepress-theme-hope.github.io/v2/zh/guide/interface/darkmode.html
 
-  - title: 完整的无障碍支持
-    icon: support
+  - title: 数据库运维
+    icon: mysql
     details: 为你的网站带来完整的无障碍支持
     link: https://vuepress-theme-hope.github.io/v2/zh/guide/interface/accessibility.html
 
-  - title: 文章加密
-    icon: lock
+  - title: CI/CD
+    icon: tree
     details: 你可以为你的特定页面或特定目录进行加密，以便陌生人不能随意访问它们
     link: https://vuepress-theme-hope.github.io/v2/zh/guide/feature/encrypt.html
 
@@ -99,11 +99,5 @@ features:
     details: 包括图标支持、全屏按钮、返回顶部按钮等
     link: https://vuepress-theme-hope.github.io/v2/zh/guide/feature/
 copyright: false
-footer: MIT Licensed | Copyright © 2019-present Mr.Hope
+footer: MIT Licensed | Copyright © 2022-present Mr.Fan
 ---
-
-这是项目主页的案例。你可以在这里放置你的主体内容。
-
-想要使用此布局，你需要在页面 front matter 中设置 `home: true`。
-
-配置项的相关说明详见 [项目主页配置](https://vuepress-theme-hope.github.io/v2/zh/guide/layout/home/)。
